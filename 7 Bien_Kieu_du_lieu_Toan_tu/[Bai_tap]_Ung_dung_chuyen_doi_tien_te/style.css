@@ -1,0 +1,11 @@
+
+table {
+    width: 25%; /* Chiều rộng của bảng */
+    border-collapse: collapse; /* Gộp viền của các ô */
+}
+
+table td {
+    text-align: center; /* Căn giữa nội dung của ô */
+    padding: 10px; /* Khoảng cách bên trong ô */
+
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+<h2> Calculator</h2>
+<input type="text" id="input_1" name="input_1" placeholder="First number">
+<input type="text" id="input_2" name="input_2" placeholder="Second number">
+<table>
+    <tr>
+        <td><input type="radio" name="operator" id="Add(+)" value="Add(+)">Add(+)</td>
+        <td><input type="radio" name="operator" id="Sub(-)" value="Sub(-)">Sub(-)</td>
+        <td><input type="radio" name="operator" id="Multi(*)" value="Multi(*)">Multi(*)</td>
+        <td><input type="radio" name="operator" id="Divi(/)" value="Divi(/)">Divi(/)</td>
+    </tr>
+</table>
+<button type="button" onclick="calculator()">Calculator</button>
+<p id="Result">Result: </p>
+
+<script src="index.js"></script>
+</body>
+</html>

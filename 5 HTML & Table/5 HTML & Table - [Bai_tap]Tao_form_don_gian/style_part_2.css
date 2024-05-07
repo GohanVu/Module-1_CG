@@ -1,0 +1,24 @@
+p, input{
+ display: inline-block;
+    text-align: justify;
+    margin-right: 20px;
+
+
+}
+textarea{
+    margin-bottom: -20px;
+    margin-left: 15px;
+}
+select{
+    margin-bottom: -35px;
+    margin-left: 35px;
+}
+
+.h2-background {
+    background-color:burlywood;
+    color: midnightblue;
+    padding: 2px;
+}
+.p-color{
+    color: midnightblue;
+}

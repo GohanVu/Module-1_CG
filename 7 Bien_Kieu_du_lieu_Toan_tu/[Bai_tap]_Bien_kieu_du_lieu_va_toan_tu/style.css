@@ -1,0 +1,14 @@
+
+table {
+    width: 20%; /* Chiều rộng của bảng */
+    border-collapse: collapse; /* Gộp viền của các ô */
+}
+
+table td {
+    text-align: left; /* Căn giữa nội dung của ô */
+    padding: 5px; /* Khoảng cách bên trong ô */
+
+}
+.bai_2 {
+    display: block;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo form đơn giản</title>
+    <link rel="stylesheet" type="text/css" href="style_part_1.css">
+</head>
+
+<body>
+<form>
+<h2 class="h2-background"> SỞ THÍCH CỦA BẠN</h2>
+
+<p class="name-align" > Họ và tên  </p>
+<input type="text" name="name" id="name" placeholder=""/>
+<br>
+<p class="email-align"> Email</p>
+<input type="email" name="email" id="email" placeholder="example@gmail.com"/>
+<br>
+
+<p class="hobby-align"> Sở thích</p>
+<table class="table-align" >
+    <tr>
+        <td> <input type="checkbox" name="hobby1" id="hobby1" value="Thể thao"><label for="hobby1">Thể thao</label></td>
+        <td> <input type="checkbox" name="hobby2" id="hobby2" value="Âm nhạc"><label for="hobby2">Âm nhạc</label></td>
+        <td> <input type="checkbox" name="hobby3" id="hobby3" value="Đọc sách"><label for="hobby3">Đọc sách</label></td>
+    </tr>
+    <tr>
+        <td> <input type="checkbox" name="hobby4" id="hobby4" value="Lướt web"><label for="hobby4">Luớt web</label></td>
+        <td> <input type="checkbox" name="hobby5" id="hobby5" value="Chơi game"><label for="hobby5">Chơi game</label></td>
+        <td> <input type="checkbox" name="hobby6" id="hobby6" value="Điện ảnh"><label for="hobby6">Điện ảnh</label></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" name="hobby7" id="hobby7"value="Du lịch"><label for="hobby7">Du lịch</label></td>
+    </tr>
+</table>
+<br>
+<div class="button-algin">
+<input type="button" name="SubmitForm" id="SubmitForm" value="Gửi thông tin"/>
+<input type="button" name="ResetForm" id="ResetForm" value="Nhập lại"/>
+</div>
+</form>
+</body>
+</html>

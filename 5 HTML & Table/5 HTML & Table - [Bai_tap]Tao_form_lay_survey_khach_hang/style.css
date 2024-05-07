@@ -1,0 +1,28 @@
+.feedback-table{
+    width: 90% ;
+    border-collapse: collapse;
+    td,th {
+        padding: 20px;
+        border: 1px solid black;
+    }
+
+    th {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 200;
+        color: #5f6062;
+        font-size: 13px;
+        padding: 10px 10px 10px 10px;
+        border-bottom: 1px solid #e0e0e0;
+        text-align: center;
+    }
+
+    td{
+        font-family: "Open Sans", sans-serif;
+        font-weight: 200;
+        color: #5f6062;
+        font-size: 13px;
+        padding: 10px 10px 10px 10px;
+        border-bottom: 1px solid #e0e0e0;
+        text-align: center;
+}
+}
